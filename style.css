@@ -1,0 +1,33 @@
+body{
+    background-color: rgba(14, 193, 62, 0.686);
+}
+h1{
+    background-color: red;
+    color: blue;
+}
+#show_sketch{
+    float:right;
+}
+p{
+    font-size: 25px;
+    padding-top: 10px;
+}
+canvas{
+    border: 2px solid pink;
+    animation: example 2s infinite;
+    margin-top:60px;
+}
+@keyframes example{
+    from{
+        box-shadow:2px 2px 20px purple
+    }
+    to{
+        box-shadow:2px 2px 20px violet 
+    }
+}
+#clear_canvas{
+    border: 5px solid orangered;
+    color: black;
+    font-size: 15px;
+}
+
